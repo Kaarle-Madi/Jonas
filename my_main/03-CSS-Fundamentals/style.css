@@ -81,3 +81,23 @@ aside {
 body {
   /*background-color: #444444; */
 }
+
+/* .first-li{
+  font-weight: bold; color
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(even) {
+  color: red; 
+}
+*/
+
+article p:last-child {
+  color: red;
+}
