@@ -1,11 +1,12 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+* {
+  /* border-top: 10px solid #1098ad; */
+}
+
+body {
+  color: #444;
   font-family: sans-serif;
-  color: #444444;
+
+  border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -98,6 +99,50 @@ li:last-child {
 }
 */
 
+/* Missconception: this won't work!*/
 article p:last-child {
   color: red;
+}
+
+/* Styling Link */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  /*color: #777*/
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* LVHA must be in order
+  a:link
+  a:visited
+  a:hover
+  a:active
+*/
+
+/* resolving conflicts */
+/* #copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: green !important;
+} */
+
+nav {
+  font-size: 18px;
 }
