@@ -41,12 +41,13 @@ a:hover {
   font-size: 22px;
   font-weight: lighter;
   color: white;
+  cursor: pointer;
   text-transform: uppercase;
 
   background-color: black;
   border: none;
 }
-/* .add-cart:hover {
+.add-cart:hover {
   color: #000;
-  background-color: #fff; */
+  background-color: #fff;
 }
